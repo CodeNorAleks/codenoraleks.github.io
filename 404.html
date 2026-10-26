@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>The Mine</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+// Forward any misspelled or capitalised link (phones love "The-Mine-Test") to the app or the landing page.
+(function(){var p=location.pathname.toLowerCase();
+ if(p.indexOf('/the-mine-test')===0){location.replace('/the-mine-test/'+location.search+location.hash);}
+ else if(p.indexOf('/the-mine')===0){location.replace('/the-mine/'+location.search+location.hash);}
+ else{location.replace('/');}})();
+</script></head><body style="font-family:system-ui;padding:24px">Taking you to The Mine… <a href="/">tap here</a> if nothing happens.</body></html>
